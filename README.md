@@ -7,7 +7,7 @@ A browser-based firewall simulator inspired by real-world enterprise security wo
 ## Live Demo
 
 - 🌐 **Live:**-- https://nettshield.vercel.app
-- 💻 **GitHub:** 
+- 💻 **GitHub:** -- https://github.com/Tejas-503/nettshield.git
 
 ---
 
