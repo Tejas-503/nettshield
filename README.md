@@ -1,32 +1,94 @@
-# React + TypeScript + Vite
+# NETSHIELD
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Enterprise Next-Generation Firewall Policy Simulator
 
-Currently, two official plugins are available:
+A browser-based firewall simulator inspired by real-world enterprise security workflows. NETSHIELD demonstrates how firewall policies are evaluated, how packets are processed, and how network traffic is monitored through logs and diagnostics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+- 🌐 **Live:**-- https://nettshield.vercel.app
+- 💻 **GitHub:** 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Preview
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+<img width="1362" height="638" alt="image" src="https://github.com/user-attachments/assets/d2b8e936-81dd-42d8-8c23-80067cd009f0" />
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+<img width="1365" height="640" alt="image" src="https://github.com/user-attachments/assets/77becd25-135f-4f31-801b-b63c905862df" />
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+<img width="1365" height="639" alt="image" src="https://github.com/user-attachments/assets/4ce1a09e-5396-499a-af78-31dceec474ff" />
+
+
+---
+
+## Features
+
+- Rule-based Firewall Policy Management
+- Sequential First-Match Rule Engine
+- Traffic Packet Simulation
+- Allow / Deny Policy Evaluation
+- LAN, WAN and DMZ Interface Simulation
+- Real-Time Traffic Logs
+- Packet Diagnostics
+- Local Storage Persistence
+- Modern SOC-style Dashboard
+
+---
+
+## How It Works
+
+1. Create a firewall policy.
+2. Define the source, destination, service and action.
+3. Simulate packet traffic.
+4. The engine evaluates rules from top to bottom.
+5. The first matching rule determines whether the packet is allowed or denied.
+6. A traffic log is generated with the matched policy and verdict.
+
+---
+
+## Firewall Workflow
+
+Source Device
+
+↓
+
+LAN Interface
+
+↓
+
+Firewall Policy Evaluation
+
+↓
+
+Rule Match
+
+↓
+
+ALLOW / DENY
+
+↓
+
+Traffic Log Generated
+
+---
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Local Storage
+
+---
+
+## Project Goal
+
+NETSHIELD was built to understand how enterprise firewalls process network traffic without requiring physical firewall hardware. The project focuses on practical concepts such as firewall policies, traffic flow, rule evaluation and network troubleshooting.
+
+---
+
+## Disclaimer
+
+NETSHIELD is an educational simulator inspired by enterprise firewall workflows. It is an independent learning project and is not affiliated with Fortinet or any commercial firewall vendor.
